@@ -3,6 +3,7 @@ email:
 description: Afonso Eduardo - Personal Page
 github_username: afonzoeduardo
 repository: afonzoeduardo/afonzoeduardo.github.io
+url: "https://afonzoeduardo.github.io"
 minimal_mistakes_skin: dark
 search: false
 
@@ -32,10 +33,11 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-include-cache
+  - jekyll-sitemap
 
 author:
   name             : "Afonso Eduardo"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/AfonsoEduardo.jpg"
   bio              : "PhD student in Machine Learning<br>University of Edinburgh<br>School of Informatics, ANC"
   location         : #
   email            : "aflm.eduardo@gmail.com"

@@ -14,7 +14,7 @@ classes: wide widel pr
 
 <p align="center"><img src="/assets/images/BOIC/example_intro.png" alt="Motivating Example" width="800" title="Overconfident models are unable to capture the ground truth, leading BO astray. The stationary model with an informative quadratic mean fits the trend too well, resulting in small residuals. Small residuals lead to a smaller signal variance and a longer lengthscale that drive interpolation uncertainty down everywhere. The stationary assumption posits that signal variance and lengthscale do not change based on location, but it does not hold for functions with irregular bumps. The proposed informative models, being nonstationary, allow the specification of spatially-varying properties."/></p>
 
-A class of informative priors on the covariance of functions is proposed for optimization with Gaussian Process surrogates. 
+A class of informative priors over functions is proposed for optimization with Gaussian process surrogates. 
 The proposed nonstationary covariance functions encode a priori preferences via spatially-varying prior (co)variances and promote heterogeneous local exploration via spatially-varying lengthscales. Both nonstationary effects are induced by a shaping function that captures information about optima.
 Experiments in high dimensions aim to show that the proposed methodology with informative surrogates remains useful even when little is known in advance, as often is the case in black-box optimization.
 
